@@ -1,4 +1,45 @@
 a{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
+#nav{
+    color: white;
+    background-image:linear-gradient(135deg,  rgba(255, 255, 255)60%, rgba(0,0,0)30%), url('./images/mercedes.jpeg');
+    
+}
+#nav a{
+    color: #fff;
+}
+#login{
+    background-image: url('./images/mercedes.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0, 0 0, 51% 100%);
+
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    #navbar{
+        background-image:linear-gradient(135deg, rgba(255, 25, 2)70%, rgba(255,255,255)30%), url(./images/mercedes.jpeg);
+
+    }
+    #navbar a {
+        color: white;
+    }
+}
+@media only screen and (min-width:320px) {
+    #navbar a{
+        color:white;
+    }
+}
+.navbar-toggler{
+    color: indianred;
+}
+.navbar-toggler-icon{
+    color: yellow;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+.findPerfect h1, p {
+justify-content: center;
+}}
