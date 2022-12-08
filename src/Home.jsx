@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Slider from './Slider';
 import Find from './OwlCarousal/Find'
 import Find2 from "./Find2";
@@ -10,16 +10,19 @@ export var Home =()=>{
     return(
       <div>
      
-          <Row>
+         
           <Col>
           <Slider/>
+         
+          
           <Find/>
           <Find2/>
           <Luxury/>
-          <Cards/>
+          <Cards/> 
+        
              </Col>
-           </Row>
-     
+        
+          
 
       </div>
     );

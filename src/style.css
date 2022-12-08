@@ -4,7 +4,7 @@ a{
 }
 #nav{
     color: white;
-    background-image:linear-gradient(135deg,  rgba(255, 255, 255)60%, rgba(0,0,0)30%), url('./images/mercedes.jpeg');
+    background-image:linear-gradient(135deg,  rgba(255, 255, 255)40%, rgba(0,0,0)30%), url('./images/mercedes.jpeg');
     
 }
 #nav a{
@@ -19,9 +19,9 @@ a{
 
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
-    #navbar{
-        background-image:linear-gradient(135deg, rgba(255, 25, 2)70%, rgba(255,255,255)30%), url(./images/mercedes.jpeg);
+@media only screen and (max-width:992px)  {
+    #nav{
+        background-image:linear-gradient(135deg, rgba(255, 25, 2)60%, rgba(255,255,255)30%), url('./images/mercedes.jpeg');
 
     }
     #navbar a {
@@ -43,3 +43,9 @@ a{
 .findPerfect h1, p {
 justify-content: center;
 }}
+.grow {
+    transition: all .5s ease-in-out;
+}
+    .grow:hover {
+      transform: scale(1.1);
+    }

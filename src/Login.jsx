@@ -43,7 +43,11 @@ export var Login = () => {
             required: true,
             message: 'Please input your username!',
           },
+          {
+            min:3,
+          },
         ]}
+        hasFeedback
       >
         <Input />
       </Form.Item>
@@ -56,7 +60,11 @@ export var Login = () => {
             required: true,
             message: 'Please input your password!',
           },
+        {
+          min:8,
+        },
         ]}
+        hasFeedback
       >
         <Input.Password />
       </Form.Item>
@@ -78,7 +86,7 @@ export var Login = () => {
           span: 16,
         }}
       >
-        <Button className='bg-primary text-light'>
+        <Button type='primary' htmlType='Submit' className='bg-primary'>
           Submit
         </Button>
       </Form.Item>

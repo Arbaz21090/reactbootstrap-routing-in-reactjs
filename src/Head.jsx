@@ -44,6 +44,9 @@ const handleShow = () => setShow(true);
             required: true,
             message: 'Please input your username!',
           },
+          {
+            min:3,
+          },
         ]}
       >
         <Input />

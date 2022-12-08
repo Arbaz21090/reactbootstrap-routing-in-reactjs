@@ -6,13 +6,23 @@ function Slider() {
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://picsum.photos/536/354" class="d-block w-100 " alt="..." style={{height:"500px", backgroundPosition:'center', backgroundSize:'cover'}}/>
+      <img src="https://picsum.photos/536/354" class="d-block w-100 " alt="..." style={{height:"500px"}}/>
+   
+        <h1>France</h1>
+      
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/536/351" class="d-block w-100" alt="..." style={{height:"500px", backgroundPosition:'center', backgroundSize:'cover'}}/>
+      <img src="https://picsum.photos/536/351" class="d-block w-100" alt="..." style={{height:"500px"}}/>
+      
+        <h1>America</h1>
+      
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/536/352" class="d-block w-100" alt="..." style={{height:"500px", backgroundPosition:'center', backgroundSize:'cover'}}/>
+    
+      <img src="https://picsum.photos/536/352" class="d-block w-100" alt="..." style={{height:"500px"}}/>
+     
+        
+     
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

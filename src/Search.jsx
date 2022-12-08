@@ -1,8 +1,11 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+
 export var Search = () => {
+ 
   return (
+   
     <div>
 <div className='container'>
     <div className='row my-5'>
@@ -12,6 +15,7 @@ export var Search = () => {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+          
              style={{width:"500px", margin:"auto"}}
             />
             <Button variant="outline-success">Search</Button>
@@ -21,4 +25,3 @@ export var Search = () => {
     </div>
   )
 }
-
